@@ -1,0 +1,46 @@
+<!---- html wwssddssddkldf----가나다라마바사아자착카나타아
+오나리이라아라ㅣ비라아리나이나리 주석이다주석디이야 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 영역*/
+        /* td{border:1px solid red} */
+        .item{
+            border:2px dashed gray;
+            width:200px;
+            text-align:center;
+        }
+        #box{
+            border-spacing: 0;
+            background-color:bisque;
+        }
+        .item:howver{/*마우스오버:마우스커서가 위에있다면 색깔이바뀌는거*/
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table id="box">
+        <tr>
+            <td class="item"></td>
+            <td class="item"></td>
+            <td class="item"></td>
+        </tr>
+        <tr>
+            <td class="item"></td>
+            <td class="item"></td>
+            <td class="item"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+</body>
+</html>
