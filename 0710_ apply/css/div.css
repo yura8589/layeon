@@ -1,0 +1,52 @@
+{   margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+rap{
+    width:1000px;
+    margin
+}
+box1{
+    border:1px solid red;
+    height:50px;
+    width:400px;
+    }
+box2{
+    border:1px solid blue;
+    width;300px;
+    height:100px;
+
+}
+#resume td {}
+
+#resume tr:nth-child(2n)>td{}background-color: blue
+
+#box1>p:first-child{
+    color: purple
+
+    
+}
+
+#box1>p:nth-child(2){color yellow}
+#box2>p:nth-child(2n-1){color orange}
+
+#box3>p:last-of-child{color: red;}
+
+#grade th
+#grade td{
+    border-bottom: 1px solid red;
+}
+
+#spac{
+    margin: 20pxd;
+    border-collapse; collapse;
+}
+#seec th,
+#spec td{ paddding:00.2mm;
+          border-botton:1px solid red;
+          border-right:1px  solid green;
+}
+#spec th{backgrond}

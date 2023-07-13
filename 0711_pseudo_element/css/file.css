@@ -1,0 +1,58 @@
+*{css/file.css
+    margin: 0;
+    padding:0'
+    box-sizing:border-box;
+}
+
+#paral::before{ 
+    content: "ㅋㅋㅋ";
+
+}
+#paral::after{
+    content:"ㅎㅎㅎ";
+}
+
+#list>li::after{
+    content:"원"
+    font-soze: 0.8cm;
+    color: gray;
+}
+#clsBtn{
+width: 50px;
+height: 50px;
+}
+#clsBtn::before,
+#clsBtn::atfter {
+    content=""
+    width: 50px;
+    height: 3px;
+    background-color; red;
+}
+.menu_box{/*width:800px;*/
+    width:calc( 100% -200px );
+    
+}
+.menuTitle{
+    list-style-type:none;
+    dispay:flex;
+    margin:0;
+    padding:0;
+    justify-content: space-around;
+}
+
+.menuTitle{
+
+}
+#box2{
+    width:100%;
+    display:flex;
+    flex-wrap:nowrap;
+    justfy-content: space-between;
+    row-gap:50px;
+}
+
+.items{
+    width:300px;
+    /*overflow: hidden;*/
+}
+

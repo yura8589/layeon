@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 사용해보기</title>
+    <meta name="author"content="eunsol lee"/>
+    <meta name="keywords"content="javascript,인터프리터언어,프로그래밍 언어"/>
+    <meta name="decription"content="html문서에 자바스크립트를 연결하여  html요소와 스타일 요소를 컨트롤
+    할 수 있다."/>
+</head>
+<body>
+    <script>
+        
+        //alert("hello |n world");
+        //변수이름 짓는 규칙 1.영어와 숫자만사용
+        //2.첫번째글자는 영어
+        //3.이미 있는 이름과 겹치면 안됨
+        //4.내용또는 의도를 가늠할 수 있는 이름
+        //5.띄어쓰기,특수문자 금지(_는사용가능)
+        //var marriage = false;
+        //if(marriage ==true{alert(결혼을축하합니다)_})
+
+       // var score = [95,"미응시",65,true,null];
+        //alert(score[1]);
+
+   // var eunsol = {
+        age: 25,
+        height: 166,
+        weight: 60,
+        salary: 200,
+        marriage: false,
+        essay: "안녕하시오, 이은솔입니다."
+        score: [98,80,75,65,45]
+
+    };
+    alert("은솔의 키" + eunsol.height);
+    ///////alert(eunsol.score[1]);
+
+    var employee = 
+        [{
+            name:"김일호"
+            rank:"부장"
+            title:"팀장"
+            salary: 450
+        },{
+            name:"김삼순"
+            rank:"과장"
+            title:"null"
+            salary: 350
+        },{
+            name:"임꺽정"
+            rank:"대리"
+            title:"null"
+            salary: 320
+        }
+        ];
+        alert( employee[0].salary);
+    </script>
+</body>
+</html>

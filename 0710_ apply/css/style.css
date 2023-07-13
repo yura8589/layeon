@@ -1,0 +1,168 @@
+/*css를 이용해서  html에 모양 색 크기를 적용하려면선택을 해야된다.
+선택하는 방법은  id(#)를 선택하는방법과 클래스(.)를 선택하는방법과 태
+그(태그)/
+*/
+#resume{
+    width: 500px;
+    margin: 0 auto;
+}
+.title{
+    text-align:right;
+}
+
+.intro{
+    font-size:10px;
+   
+}
+.need{
+    border-color: brown;
+    border-radious:20px;
+}
+.need::focus{ouline:none;}
+
+select{name=part}{width:172px;}
+
+#selfintro{
+    width:350;
+    height:150px;
+    resize:nene;
+    overflow: hidden;
+
+}
+
+
+----------------------
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ #box1>p:first-child {
+    color: purple;
+ }
+ 
+ #box1>p:nth-child(2) {
+    color: yellow;
+ }
+ 
+ #box2>p:nth-child(3n) {
+    color: orange;
+ }
+ 
+ #box3>p:first-of-type {
+    color: red;
+ }
+ 
+ 
+ #grade {
+    margin: 30px;
+    border-collapse: collapse;
+    border-top: 1px solid blue;
+ }
+ 
+ #grade th, 
+ #grade td {
+    border-bottom: 1px solid red;
+    border-right: 1px solid green; 
+ }
+ 
+ #spec {
+    margin: 20px;
+    border-collapse: collapse;
+    border-top: blue;
+ }
+ #spec th, 
+ #spec td {
+    padding: 0.2em;
+    border-bottom: 1px solid red;
+    border-right: 1px solid green;
+ }
+ 
+ #spec th {
+    background-color: antiquewhite;
+ }
+ 
+ #spec th:last-child, 
+ #spec td:last-child {
+    border-right: none;
+ }
+ 
+ #grade th:last-of-type, 
+ #grade td:last-of-type {
+    border-right: none;
+ }
+ 
+ #p1, .p2 {color: red;}
+ 
+ 
+ #parent>p { 
+    color: yellow;
+ }
+ 
+ #apply:hover {
+    cursor: grab;
+ }
+ #apply:active {
+    cursor: grabbing;
+ }
+ 
+ #resume td { 
+    border: 1px solid orange;
+ }
+ 
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ 
+ #resume{
+     width: 500px;
+     margin: 0 auto;
+ }
+ 
+ #resume tr:nth-child(2n)>td {
+    background-color: aliceblue;
+ }
+ 
+ .title{
+     text-align: right;
+     padding-right: 10px;
+ }
+ 
+ .intro{
+     font-size: 12px;
+     text-align: right;
+ }
+ 
+  .need{
+     border-color: red;
+     border-width: 3px;
+     border-radius: 8px;
+  }
+  .need:focus{
+     outline: none;
+  }
+ 
+  select[name=part]{
+     width: 172px;
+  }
+ 
+  input[type=date]{
+     width: 172px;
+     font-size: 20px;
+  }
+ 
+  input[type=number]{
+     width: 70px;
+  }
+ 
+  #selfIntro{
+     width: 350px;
+     height: 150px;
+     resize: none;
+     overflow: hidden;
+ }
